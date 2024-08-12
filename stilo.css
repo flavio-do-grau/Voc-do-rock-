@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'vcr osd mono';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 45px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+button {
+    background-color: #7a0000;
+    color: white;
+    font-family: 'vcr osd mono';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+button img {
+    max-width: 300px; 
+    max-height: 300px;
+    margin-right: 10px;
+    object-fit: contain; 
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+    width: 900px;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
